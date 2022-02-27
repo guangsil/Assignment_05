@@ -70,7 +70,7 @@ while True:
         for row in lstTbl:
             strRow = ''
             for item in row.values():
-                strRow += str(item) + ", "
+                strRow += str(item) + ","
             strRow = strRow[:-1] + '\n'
             objFile.write(strRow)
         objFile.close()
